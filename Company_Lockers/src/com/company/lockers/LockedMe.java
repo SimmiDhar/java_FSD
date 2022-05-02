@@ -82,6 +82,7 @@ public class LockedMe {
 		catch(Exception ex) {
 			System.out.println(ex);
 		}
+		
 	}
 	public static void deleteFiles() {
 		Scanner sc= new Scanner(System.in);
@@ -109,8 +110,9 @@ public class LockedMe {
 		}
 	}
 	public static void searchFiles() {
-		Scanner sc= new Scanner(System.in);
 		try {
+		Scanner sc= new Scanner(System.in);
+	
 			String fileName;
 				
 		System.out.println("Enter the file name to be searched");
